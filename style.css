@@ -1,0 +1,420 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+}
+.chil{
+    height: 100px;
+    width: 96%;
+    display: flex;
+    background-color: sandybrown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.chil h1{
+    font-size: 30px;
+    color: lightgreen;
+}
+.c1 ul li{
+    display: inline;
+    margin: 40px;
+}
+.c1 ul li:hover{
+    color: lightgreen;
+}
+.c2 i{
+    font-size: 30px;
+    display: block;
+}
+.c3 i{
+    font-size: 30px;
+    display: none;
+}
+.page{
+    width: 100%;
+    height: 90%;
+    background-color: #cce6ff;
+    position: relative;
+}
+img{
+    height: 500px;   
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.page h1{ 
+    position: absolute;
+    left: 15%;
+    top:20%;
+    font-size: 40px;
+    color: lightgreen;
+}
+.page h2{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    font-size: 20px;
+}
+.page h4{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 15%;
+    top: 37%;
+    font-size: 20px;
+}
+.data{
+    height: 100%;
+    width: 100%;
+}
+.data .h1{
+    font-size: 30px;
+    text-align: center;
+}
+.data .h4 pre{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.back{
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.child1{
+    background-image: url(./category_img_01.jpg);
+    background-size: cover;
+}
+.child1 h2{
+    font-size: 20px;
+}
+.child2{
+    background-image: url(./category_img_02.jpg);
+    background-size: cover;
+}
+.child3{
+    background-image: url(./category_img_03.jpg);
+    background-size: cover;
+}
+.data .wat{
+    position: absolute;
+    left: 17%;
+}
+.wat button{
+    border: 1px solid;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: green;
+
+}
+.sho{
+    position: absolute;
+    left:48%; 
+}
+.sho button{
+    border: 1px solid;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: green;
+}
+.acc{
+    position: absolute;
+    left: 77%;
+}
+.acc button{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: green;
+
+}
+.data1{
+    height: 120%;
+    width: 100%;
+    background-color: #cce6ff;
+
+}
+.data1 .h1{
+    font-size: 30px;
+    text-align: center;
+}
+.data1 pre{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.back1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ice{
+    height: 350px;
+    width: 350px;
+}
+.ice1{
+    background-image: url(./feature_prod_01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ice2{
+    background-image: url(./feature_prod_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ice3{
+    background-image: url(./feature_prod_03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.back2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid; 
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+.row1 h4{
+    color:gray;
+    position: absolute;
+    left: 80%;
+}
+.row1 h3{
+    color: gray;
+}
+.row2 h4{
+    color:gray;
+    position: absolute;
+    left: 80%;
+}
+.row2 h3{
+    color: gray;
+}
+.row3 h4{
+    color:gray;
+    position: absolute;
+    left: 80%;
+}
+.row3 h3{
+    color: gray;
+}
+.back4{
+    width: 100%;
+    height: 80%;
+}
+.back4 h1{
+    font-size: 40px;
+}
+.back4 label{
+    font-size: 20px;
+    text-align: start;
+}
+.back4 input{
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    text-align: start;
+}
+.back4 button{
+    height: 50px;
+    width: 120px;
+    font-size: 25px;
+}
+
+.back3{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#484B5C;
+}
+.roe{
+    flex-wrap: wrap;
+
+}
+.roe1 h1{
+    color: lightgreen;
+}
+.roe1 p{
+    color: white;
+    font-size: 20px;
+}
+.roe1 h5{
+    color: white;
+    font-size: 20px;
+}
+.roe1 h2{
+     color: white;
+    font-size: 20px;
+}
+.roe2 pre{
+      color: white;
+    font-size: 20px;
+}
+.roe3 pre{
+    color: white;
+    font-size: 20px;
+}
+.back3{
+    position: relative;
+}
+.col button{
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    background-color: lightgreen;
+    color: white;
+
+}
+.col input{
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    background-color:#484B5C;
+    color: white;
+    
+}
+.col h3{
+    position: absolute;
+    top: 80%;
+    right: 60%;
+    font-size: 30px;
+    color: white;   
+}
+
+
+@media(max-width:750px){
+    .c1{
+        display: none;
+    }
+    .c3 i{
+        display: block;
+        padding-right: 30px;
+    }
+}
+@media(max-width:980px){
+    .col{
+        height: 250px;
+        background-color: #484B5C;
+    }
+    .col input{
+        position: absolute;
+        top: 80%;
+        left: 30%;
+    }
+    .col button{
+        position: absolute;
+        top: 80%;
+        left: 65%;
+    }
+    .col h3{
+        position: absolute;
+        top :89%;
+        left: 2%;
+        font-size: 15px ;
+        text-align: center;
+    }
+}
+@media(max-width:860px){
+    .back3{
+        display: inline;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .roe{
+        background-color:#484B5C;
+    }
+}
+@media(max-width:870px){
+    .data1{
+        width: 100%;
+    }
+    .data1 .h1{
+        font-size: 20px;
+    }
+    .data1 .h4{
+        font-size: 10px;
+    }
+    .back1{
+        width: 100%;
+    }
+    .back1 .ice{
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        gap: 10px;
+    }
+
+}
+@media(max-width:980px){
+    .page img{
+        width: 50%;
+        height: 70%;
+        left: 43%;
+    }
+    .page img{
+        left: 49%;
+    }
+    .page h1 {
+        font: 10px;
+        top: 20%;
+        left: 1%;
+    }
+    .page h2{
+        font-size: 15px;
+        top: 32%;
+        left: 1%;
+    }
+    .page h4{
+        font-size: 15px;
+        top: 37%;
+        left: 1%;
+        height: 300px;
+        width: 150px;
+    }
+}
+@media(max-width:970px){
+    .back2 .row{
+        font-size: 10px;
+        height: 130px;
+        width: 200px;
+    }
+
+}
+@media(max-width:950px){
+    .back .child{
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+        gap: 10px;
+    }
+    .data{
+
+        width: 100%;
+    }
+    .data button{
+        height: 50px;
+        width: 55px;
+        font-size: 15px;
+        height: 50%;
+    }
+}
+
